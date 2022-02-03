@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            height: 4000px;
+        }
+        
+
+        header {
+            background-color: black;
+            color: blanchedalmond;
+            height: 45px;
+            padding: 15px;
+        }
+
+        .container {
+            height: 70vh;
+            width: 50vw;
+            margin: auto;
+            background-color: olive;
+        }
+
+        li {
+            display: inline;
+            margin: 5px;
+            font-size: 25px;
+        }
+
+        p {
+            text-align: center;
+            border: 2px solid red;
+        }
+
+        .box {
+            background-color: aqua;
+            height: 100px;
+            width: 200px; 
+            /* position: relative; top: 30px; left: 60px; */
+        }
+        .box2{
+            background-color:orange;
+            height: 100px;
+            width: 200px;
+            /* position: relative;top: -70px;left: 259px; */
+            position: fixed;
+            bottom: 0;
+            right: 0;
+
+        }
+     
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore dolorem vero, placeat quasi dolorum
+            architecto, esse, non quia aliquam corrupti provident error natus reiciendis tenetur. Magnam aliquid id
+            excepturi aperiam?</p>
+        <div class="box"> This is a box.</div>
+        <div class="box2">Chat with us</div>
+    </div>
+
+
+
+</body>
+
+</html>

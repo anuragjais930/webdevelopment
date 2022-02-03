@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{margin: 0;
+        padding: 0;}
+.container{
+    background-color: aqua;
+    height: 100vh;
+}
+.box{
+    background-color: red;
+    color: black;
+    border: 2px solid red;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* animation-name: widthAnimate;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse; */
+    animation: widthAnimate 3s ease-in .5s infinite alternate;
+    font-size: x-large;
+    
+}
+img{
+    animation: widthAnimate 3s ease-in .5s infinite alternate;
+    
+}
+@keyframes widthAnimate {
+from{
+    width: 30px;
+    height: 30px;
+}    
+to{
+    width: 50vw;
+    height: 50vh; 
+}
+}
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+
+         <div class="box">
+       </div> 
+        <img src="dragon.jpg" alt="" width="300px">
+    </div>
+</body>
+</html>

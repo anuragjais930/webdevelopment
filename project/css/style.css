@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Quicksand:wght@300&family=Ubuntu:wght@300&display=swap');
+
+:root {
+    --main-bg-color:#0e76b7;
+  }
+  
+ 
+header{
+    background-color:var(--main-bg-color);
+   
+     
+}
+nav{
+    display: flex;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    
+    }
+.logo img{
+    width: 88px;
+    padding: 0 20px;
+}
+
+nav ul{
+     height: 50px; 
+    display: flex; 
+    justify-content: flex-start;
+    align-items: center;
+
+}
+nav ul li {
+list-style: none;
+padding: 0 17px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: black;
+    font-weight:bold;
+}
+.Search{
+    display: flex;
+    align-items: center;
+}
+.Search input{
+    width: 30vw;
+height: 30px;
+border-radius: 2px;
+margin: 0 10px 0 15px;
+padding: 0 5px;
+}
+
+
+.btn{
+    padding: 6px 10px;
+    border-radius: 2px;
+    border: 2.5px solid #a4e6e6;
+    cursor: pointer;
+    font-family:  'Quicksand', sans-serif;;
+    font-weight: 640;
+}
+.slider{
+    margin:10px auto;
+    width: 70vw;
+    overflow: hidden;
+}
+.card{
+    margin: auto 50px;
+    max-width: 90vw;
+    font-family: 'Ubuntu', sans-serif;
+    overflow: hidden;
+}
+.card-item{
+    display:inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 12px;
+}
+.card h2{
+    font-family: 'Quicksand', sans-serif;
+    margin: 10px 0 10px 28px;
+}
+.container{
+   min-height: 82vh;
+}
+
+footer{
+   height: 10vh;
+   background-color: var(--main-bg-color);
+   color: white;
+   font-family: 'Quicksand', sans-serif;
+  
+}
+.my-2{  
+        margin: 12px;}
+.my-2{  
+        margin: 10px;}
+       
+ .text-center{
+     text-align: center;
+ }
+
+
